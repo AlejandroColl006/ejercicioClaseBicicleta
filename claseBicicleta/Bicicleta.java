@@ -38,7 +38,7 @@ public class Bicicleta {
     public int getPiñonActual(){
         return piñonActual;
     }
-    //Como queremos que se vea cuando se imprima por pantalla
+    //Como queremos que se vea cuando se imprima por pantalla/consola
     @Override
     public String toString() {
         return "Bicicleta (velocidadActual=" + velocidadActual +
